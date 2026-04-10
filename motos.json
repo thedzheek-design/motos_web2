@@ -10,5 +10,16 @@
         "modelo": "",
         "precio": "",
         "fotos": []
+    },
+    {
+        "marca": "efefefe",
+        "modelo": "fefe",
+        "precio": "fef",
+        "fotos": [
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/efefefe_0.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/efefefe_1.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/efefefe_2.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/efefefe_3.jpg"
+        ]
     }
 ]
