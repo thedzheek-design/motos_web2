@@ -2,11 +2,13 @@
     {
         "marca": "italika",
         "modelo": "ft150",
-        "precio": "19500"
+        "precio": "19500",
+        "fotos": []
     },
     {
         "marca": "",
         "modelo": "",
-        "precio": ""
+        "precio": "",
+        "fotos": []
     }
 ]
