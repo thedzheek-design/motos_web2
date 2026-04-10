@@ -8,5 +8,10 @@
         "marca": "",
         "modelo": "",
         "precio": ""
+    },
+    {
+        "marca": "italika",
+        "modelo": "hhh",
+        "precio": "14,600"
     }
 ]
