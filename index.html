@@ -5,6 +5,7 @@
 <title>Motos disponibles</title>
 
 <style>
+
 body{
 margin:0;
 background:#0f172a;
@@ -36,10 +37,18 @@ transition:0.2s;
 transform:translateY(-3px);
 }
 
-.card img{
-width:100%;
+.galeria{
+display:flex;
+overflow-x:auto;
+gap:5px;
+padding:5px;
+}
+
+.galeria img{
 height:160px;
+min-width:100%;
 object-fit:cover;
+border-radius:8px;
 cursor:pointer;
 }
 
@@ -48,7 +57,7 @@ padding:10px;
 }
 
 .titulo{
-font-size:16px;
+font-size:15px;
 font-weight:bold;
 }
 
@@ -85,12 +94,14 @@ background:rgba(0,0,0,0.9);
 display:none;
 justify-content:center;
 align-items:center;
+z-index:999;
 }
 
 #zoom img{
 max-width:90%;
 max-height:90%;
 }
+
 </style>
 
 </head>
@@ -115,12 +126,20 @@ let cont=document.getElementById("motos")
 
 data.forEach(m=>{
 
-let img = m.fotos && m.fotos.length ? m.fotos[0] : ""
+let fotosHTML=""
+
+if(m.fotos){
+m.fotos.forEach(f=>{
+fotosHTML+=`<img src="${f}" onclick="zoom('${f}')">`
+})
+}
 
 cont.innerHTML+=`
 <div class="card">
 
-<img src="${img}" onclick="zoom('${img}')">
+<div class="galeria">
+${fotosHTML}
+</div>
 
 <div class="info">
 
@@ -133,7 +152,7 @@ $${m.precio}
 </div>
 
 <div class="detalles">
-${m.kilometraje || ""} km
+${m.kilometraje || ""}
 </div>
 
 <div class="detalles">
