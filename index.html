@@ -1,28 +1,63 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Motos en Venta</title>
+<title>Motos</title>
 
 <style>
-body{font-family:Arial;background:#111;color:white;text-align:center;}
-.card{background:#222;margin:20px;padding:15px;border-radius:10px;}
-img{width:300px;border-radius:10px;}
-.precio{color:#00ff88;font-size:20px;}
+body {
+    font-family: Arial;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+.card {
+    background: #222;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+a {
+    background: green;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
 </style>
 
 </head>
+
 <body>
 
 <h1>🔥 Motos Disponibles 🔥</h1>
 
-<div class="card">
-    <img src="https://via.placeholder.com/300">
-    <h2>gerge greg</h2>
-    <p class="precio">$ gregergergregergergerg</p>
-    <p>grgreg</p>
-</div>
+<div id="motos"></div>
+
+<script>
+fetch("motos.json")
+.then(res => res.json())
+.then(data => {
+
+    let contenedor = document.getElementById("motos");
+
+    contenedor.innerHTML = "";
+
+    data.forEach(m => {
+        contenedor.innerHTML += `
+        <div class="card">
+            <h2>${m.marca} ${m.modelo}</h2>
+            <p>💲 ${m.precio}</p>
+
+            <a href="https://wa.me/5217753628200?text=Me interesa la ${m.marca} ${m.modelo}">
+                💬 WhatsApp
+            </a>
+        </div>
+        `;
+    });
+
+});
+</script>
 
 </body>
 </html>
