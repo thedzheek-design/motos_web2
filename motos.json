@@ -10,5 +10,18 @@
         "modelo": "",
         "precio": "",
         "fotos": []
+    },
+    {
+        "marca": "Italika ",
+        "modelo": "125z",
+        "precio": "14,500",
+        "kilometraje": "3500 kilmetros",
+        "descripcion": "todo le funciona, excelentes condiciones, papeles en regla",
+        "fotos": [
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/Italika _0.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/Italika _1.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/Italika _2.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/Italika _3.jpg"
+        ]
     }
 ]
