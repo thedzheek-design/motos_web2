@@ -9,5 +9,16 @@
             "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/italika_ft1450_0.jpg",
             "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/italika_ft1450_1.jpg"
         ]
+    },
+    {
+        "marca": "bajaj",
+        "modelo": "ft150",
+        "precio": "14000",
+        "kilometraje": "4545",
+        "descripcion": "todo le funciona ",
+        "fotos": [
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/bajaj_ft150_0.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/bajaj_ft150_1.jpg"
+        ]
     }
 ]
