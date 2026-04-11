@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "marca": "italika ",
+        "modelo": "150z 2025",
+        "precio": "18000",
+        "kilometraje": "3300",
+        "descripcion": "muy buena",
+        "fotos": [
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/italika__150z_2025_0.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/italika__150z_2025_1.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/italika__150z_2025_2.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/italika__150z_2025_3.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/italika__150z_2025_4.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/italika__150z_2025_5.jpg"
+        ]
+    }
+]
