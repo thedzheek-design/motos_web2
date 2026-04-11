@@ -197,7 +197,9 @@ href="https://wa.me/5217753628200?text=Me interesa la ${m.marca} ${m.modelo}">
 })
 
 function cambiar(id,src){
-document.getElementById("img"+id).src = src
+let img = document.getElementById("img"+id)
+img.src = src
+img.setAttribute("onclick", "zoom('"+src+"')")
 }
 
 function zoom(src){
