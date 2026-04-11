@@ -1,27 +1,13 @@
 [
     {
         "marca": "italika",
-        "modelo": "ft150",
-        "precio": "19500",
-        "fotos": []
-    },
-    {
-        "marca": "",
-        "modelo": "",
-        "precio": "",
-        "fotos": []
-    },
-    {
-        "marca": "Italika ",
-        "modelo": "125z",
-        "precio": "14,500",
-        "kilometraje": "3500 kilmetros",
-        "descripcion": "todo le funciona, excelentes condiciones, papeles en regla",
+        "modelo": "ft1450",
+        "precio": "14500",
+        "kilometraje": "230",
+        "descripcion": "2222",
         "fotos": [
-            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/Italika _0.jpg",
-            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/Italika _1.jpg",
-            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/Italika _2.jpg",
-            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/Italika _3.jpg"
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/italika_ft1450_0.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/italika_ft1450_1.jpg"
         ]
     }
 ]
