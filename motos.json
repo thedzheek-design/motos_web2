@@ -13,5 +13,21 @@
             "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/italika__150z_2025_4.jpg",
             "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/italika__150z_2025_5.jpg"
         ]
+    },
+    {
+        "marca": "ITALIKA ",
+        "modelo": "AT 110  2025",
+        "precio": "9,800",
+        "kilometraje": "1197",
+        "descripcion": "MUY BUENA",
+        "fotos": [
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/ITALIKA__AT_110__2025_0.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/ITALIKA__AT_110__2025_1.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/ITALIKA__AT_110__2025_2.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/ITALIKA__AT_110__2025_3.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/ITALIKA__AT_110__2025_4.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/ITALIKA__AT_110__2025_5.jpg",
+            "https://raw.githubusercontent.com/thedzheek-design/motos_web2/main/img/ITALIKA__AT_110__2025_6.jpg"
+        ]
     }
 ]
